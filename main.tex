@@ -1,0 +1,111 @@
+\documentclass{letter}
+\usepackage{wallpaper}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\geometry{
+  paperwidth=\dimexpr\textwidth+\marginparsep+\marginparwidth\relax,
+  paperheight=\dimexpr\textheight+\footskip\relax,
+  left=20pt,
+  right=20pt,
+  top=0pt,
+  bottom=0pt,
+  nohead,
+  nofoot,
+  nomarginpar
+}
+
+\ThisCenterWallPaper{1.5}{cvbg.png}
+
+\begin{document}
+
+\begin{minipage}[t]{0.40\textwidth}
+\setlength{\baselineskip}{1.5\baselineskip}
+\color{white}
+\vspace{1cm}
+{\large Información Personal}
+
+\rule{\linewidth}{0.4pt}
+
+\faPhone \quad +52 8342561326
+
+\faEnvelope \quad \href{somelink.com}{4gustin89@gmail.com}
+
+
+\rule{\linewidth}{0.4pt}
+
+{\large Links}
+
+%\faCode \quad \href{google.com}{Portfolio}
+
+\faGithub \quad \href{https://github.com/Augustus-Tercero}{Github}
+
+\rule{\linewidth}{0.4pt}
+
+{\large Habilidades}
+
+\faCircleNotch \quad Java
+
+\faCircleNotch \quad SQL
+
+\faCircleNotch \quad Latex
+
+\faCircleNotch \quad Linux
+
+
+\rule{\linewidth}{0.4pt}
+
+{\large Lenguajes}
+
+\faLanguage \quad English
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.60\textwidth}
+\setlength{\baselineskip}{1.5\baselineskip}
+\vspace{0.8cm}
+{\huge Agustín Alejandro Mota Hinojosa}
+
+{\large Acerca de mi}
+
+\vspace{0.5cm}
+
+Estudiante con experiencia en \textbf{programación} desarrollando aplicaciones en Java y bases de datos, con la capacidad para trabajar de forma independiente o en equipo.
+
+\vspace{0.5cm}
+
+{\large Experiencia}
+\rule{\linewidth}{0.4pt}
+
+{\large \textbf{Seguimiento de base de datos para academias de Cisco}}
+
+{\small Marzo 2022 - Abril 2022}
+
+\begin{itemize}
+    \item Desarrollo de Macros con VisualBasic para Excel
+    \item Interfaz de usuario
+    \item Seguimiento de la base de datos en Excel
+\end{itemize}
+
+{\large Educación}
+\rule{\linewidth}{0.4pt}
+
+{\large \textbf{Universidad Politécnica de Victoria}}
+
+{\small Septiembre 2020 - Actualidad}
+
+{\large \textbf{CBTis 119}}
+
+Técnico en Programación
+
+{\small Septiembre 2017 - Junio 2020}
+
+\end{minipage}
+\end{document}
